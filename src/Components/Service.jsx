@@ -8,24 +8,21 @@ const Service = () => {
         <div className="services-container">
             <div className="services-box">
                 <i className='bi bi-code-slash'></i>
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
-                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
-                <a href="#" className="button">Read More</a>
+                <h3>Certifications</h3>
+                <p>JavaScript Basics, Intermediate and problem solving – HackerRank</p>
+                <p>Web Development (MERN Full Stack) – Be-practical Tech Solutions</p>
             </div>
             <div className="services-box">
-                <i className='bi bi-paint'></i>
-                <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
-                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
-                <a href="#" className="button">Read More</a>
+                <i className='bi bi-globe2'></i>
+                <h3>Internship Experience</h3>
+                <p>TechnoFly Solutions Labs</p>
+                <p>Worked on Embedded Systems & IoT, gaining experience in developing smart devices and systems integration.</p>
             </div>
             <div className="services-box">
-                <i className='bi bi-bar-chart-alt'></i>
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi itaque similique, architecto
-                    eaque ut quas delectus pariatur nesciunt in eligendi mollitia dicta.</p>
-                <a href="#" className="button">Read More</a>
+                <i className='bi bi-bar-chart-fill'></i>
+                <h3>Verbal Jobs</h3>
+                <p>HannahTech Pvt Lmt Company - I worked as Internship</p>
+                <p>PLM Engineer Teamcenter modules and BMIDE Tools with the virtualbox Machine</p>
             </div>
         </div>
     </section>

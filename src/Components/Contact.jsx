@@ -47,7 +47,6 @@ const Contact = () => {
             </div>
             <div className="input-box">
                 <input type="number" name='mobile' id='mobile' placeholder="Mobile Number" required ref={fmobile} />
-                {/* <input type="text" placeholder="Email Subject" /> */}
             </div>
             <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required ref={fmessage}></textarea>
             <input type="submit" value="Send Message" className="button" />

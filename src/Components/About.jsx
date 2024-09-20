@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from '../images/girl.jpeg';
+import img1 from '../images/myself1.jpg';
 
 const About = () => {
   return (
@@ -11,13 +11,12 @@ const About = () => {
         <div className="about-content">
             <h2 className="heading">About <span>Me</span></h2>
             <h3>
-                Hi there, welcome to my website! I'm Cristian,
+                Hi there, welcome to my website! I'm Faisal,
                 a passionate web developer who enjoys learning new technologies
                 and solving problems with code!
             </h3>
             <p>
-                This website is my personal blog where I write about web development
-                topics that interest me and inspire me.
+                Tools: Git, Visual Studio Code.
             </p>
             <p>
                 Thank you for visiting my website and getting to know me better. I hope you
@@ -29,7 +28,7 @@ const About = () => {
                 updates on web development trends and tips. If you have any feedback or
                 suggestions, please let me know. I'd love to hear from you.
             </p>
-            <a href="#" className="button">Read More</a>
+            <a href="https://github.com/zftyfaisalahmed" className="button">GitHub</a>
         </div>
     </section>
   )
