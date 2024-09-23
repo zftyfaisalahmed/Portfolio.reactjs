@@ -41,6 +41,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
         <h2 className="heading">Contact <span>Me!</span></h2>
+        <h2 className="heading">You're details are <span>Secured with me!</span></h2>
 
         <form action="" onSubmit={submitHandler}>
             <div className="input-box">
