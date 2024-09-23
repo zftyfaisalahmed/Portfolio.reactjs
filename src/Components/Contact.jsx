@@ -26,14 +26,7 @@ const Contact = () => {
             console.log("data", data);
             await axios.post(`${url}/api/user/userInfo`, data)
             .then((res) => {
-                toast.success(res.data.msg, {
-                    className: "toast-message",
-                    hideProgressBar: true,               
-                    closeOnClick: true,                  
-                    pauseOnHover: true,                  
-                    draggable: true,                     
-                    theme: "dark", 
-                  })
+                toast.success(res.data.msg)
                 setTimeout(() => {
                     window.location.reload()
                     navigate('#contact')
