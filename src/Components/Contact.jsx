@@ -3,6 +3,8 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 
+const url = "https://portfolio-b6jo.onrender.com";
+
 const Contact = () => {
 
     const fname = useRef()
@@ -22,7 +24,7 @@ const Contact = () => {
                 message : fmessage.current.value
             }
             console.log("data", data);
-            await axios.post('/api/user/userInfo', data)
+            await axios.post(`${url}/api/user/userInfo`, data)
             .then((res) => {
                 toast.success(res.data.msg)
                 setTimeout(() => {

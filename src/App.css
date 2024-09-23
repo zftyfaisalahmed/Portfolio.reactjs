@@ -644,7 +644,7 @@ span {
 
 @media (max-width: 896px) {
     .navbar1 a:nth-child(2) {
-        color: var(--main-color);
+        color: var(--white-color);
     }
 
     .home .profession-container .profession-box {
@@ -722,7 +722,8 @@ span {
         padding: 0 3% 23rem;
         justify-content: center;
         text-align: center;
-        margin-top: 20px;
+        /* margin-top: 20px; */
+
     }
 
     .home-content h3 {
