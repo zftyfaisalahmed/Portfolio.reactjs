@@ -69,13 +69,6 @@ html {
     margin-right: auto;
 }
 
-.toast-message{
-  background-color: #000000;
-  color: rgb(36, 103, 161);
-  font-size: 18px;
-  width: 30vw;
-}
-
 .navbar1 a {
     position: relative;
     font-size: 1.7rem;
